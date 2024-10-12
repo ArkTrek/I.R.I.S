@@ -29,7 +29,7 @@ cd I.R.I.S
 ```
 
 ### 2.  Set Up a Virtual Environment
-```For Windows:
+``` For Windows:
 python -m venv venv
 .\venv\Scripts\activate
 ```
