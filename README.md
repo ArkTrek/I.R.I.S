@@ -12,7 +12,8 @@ I.R.I.S. is an intelligent voice-activated assistant that understands and execut
 ## Project Structure
 I.R.I.S/ 
 │ 
-├── iris.py # Main script to run the assistant 
+├── iris.py # Main script to run the assistant
+
 ├── commands.json # Stores learned commands and actions (auto-generated) 
 ├── user_data.json # Logs user interactions (auto-generated)  
 ├── response.mp3 # Temporary file for audio response (dynamically created)  
@@ -23,18 +24,20 @@ I.R.I.S/
 ## Setup Instructions
 
 ### 1. Clone the Repository
-```bash
+bash
+```
 git clone https://github.com/arktrek/I.R.I.S.git
 cd I.R.I.S
 ```
 
 ### 2.  Set Up a Virtual Environment
-``` For Windows:
+For Windows:
+``` 
 python -m venv venv
 .\venv\Scripts\activate
 ```
-
-```For macOS/Linux:
+For macOS/Linux:
+```
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -47,7 +50,8 @@ pip install -r requirements.txt
 ### 4. Required External Tools
 Ensure you have mpg321 or any other MP3 player installed to play the audio response.
 
-```For Linux:
+For Linux:
+```
 sudo apt-get install mpg321
 ```
 
