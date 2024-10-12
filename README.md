@@ -10,12 +10,14 @@ I.R.I.S. is an intelligent voice-activated assistant that understands and execut
 - **Learning capability**: I.R.I.S. learns new commands and saves them automatically.
 
 ## Project Structure
-I.R.I.S/ │ ├── jarvis_assistant.py # Main script to run the assistant 
-           ├── commands.json # Stores learned commands and actions (auto-generated) 
-           ├── user_data.json # Logs user interactions (auto-generated)  
-           ├── response.mp3 # Temporary file for audio response (dynamically created)  
-           ├── requirements.txt # List of dependencies  
-           └── README.md # Documentation
+I.R.I.S/ 
+│ 
+├── iris.py # Main script to run the assistant 
+├── commands.json # Stores learned commands and actions (auto-generated) 
+├── user_data.json # Logs user interactions (auto-generated)  
+├── response.mp3 # Temporary file for audio response (dynamically created)  
+├── requirements.txt # List of dependencies  
+└── README.md # Documentation
 
 
 ## Setup Instructions
