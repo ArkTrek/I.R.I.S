@@ -11,6 +11,7 @@ I.R.I.S. is an intelligent voice-activated assistant that understands and execut
 
 ## Project Structure
 I.R.I.S/ 
+
 │ 
 ├── iris.py # Main script to run the assistant
 ├── commands.json # Stores learned commands and actions (auto-generated) 
